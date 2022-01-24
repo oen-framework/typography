@@ -1,0 +1,560 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 300;
+  src: url(../fonts/iroboto-300.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 500;
+  src: url(../fonts/iroboto-500.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 700;
+  src: url(../fonts/iroboto-700.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 100;
+  src: url(../fonts/nroboto-100.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: url(../fonts/nroboto-300.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/nroboto-400.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/nroboto-500.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: url(../fonts/nroboto-900.ttf) format("truetype");
+}
+body {
+  font-family: "Roboto", "Helvetica Neue, Helvetica, Arial";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+html {
+  font-size: 137.5%;
+  -webkit-font-smoothing: antialiased;
+}
+
+p {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+ul,
+ol {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+ul li,
+ol li {
+  line-height: 1.5rem;
+}
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+blockquote {
+  line-height: 1.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: sans-serif;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5rem;
+}
+h1 {
+  font-size: 4.242rem;
+  line-height: 4.5rem;
+  margin-top: 3rem;
+}
+h2 {
+  font-size: 2.828rem;
+  line-height: 3rem;
+  margin-top: 3rem;
+}
+h3 {
+  font-size: 1.414rem;
+}
+h4 {
+  font-size: 0.707rem;
+}
+h5 {
+  font-size: 0.4713333333333333rem;
+}
+h6 {
+  font-size: 0.3535rem;
+}
+
+table {
+  margin-top: 1.5rem;
+  border-spacing: 0px;
+  border-collapse: collapse;
+}
+
+code {
+  vertical-align: bottom;
+}
+
+.lead {
+  font-size: 1.414rem;
+}
+
+.hug {
+  margin-top: 0;
+}
+.display-1 {
+  font-size: 34px;
+  font-size: 3.4rem;
+  line-height: 40px;
+  line-height: 4rem;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+.display-2 {
+  font-size: 45px;
+  font-size: 4.5rem;
+  line-height: 48px;
+  line-height: 4.8rem;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+.display-3 {
+  font-size: 56px;
+  font-size: 5.6rem;
+  line-height: 84px;
+  line-height: 8.4rem;
+  letter-spacing: -0.05px;
+  letter-spacing: -0.005rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+.display-4 {
+  font-size: 112px;
+  font-size: 11.2rem;
+  line-height: 128px;
+  line-height: 12.8rem;
+  letter-spacing: -0.1px;
+  letter-spacing: -0.01rem;
+  font-weight: 100;
+  color: #757575;
+  text-transform: inherit;
+}
+
+.headline {
+  font-size: 24px;
+  font-size: 2.4rem;
+  line-height: 32px;
+  line-height: 3.2rem;
+  letter-spacing: 0px;
+  letter-spacing: 0rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+.title {
+  font-size: 20px;
+  font-size: 2rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  letter-spacing: 0.05px;
+  letter-spacing: 0.005rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+
+.subhead-1 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+.subhead-2 {
+  font-size: 15px;
+  font-size: 1.5rem;
+  line-height: 28px;
+  line-height: 2.8rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+.body-1 {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+.body-2 {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 24px;
+  line-height: 2.4rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+.caption {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.2px;
+  letter-spacing: 0.02rem;
+  font-weight: 300;
+  color: #757575;
+  text-transform: inherit;
+}
+.label {
+  font-size: 12px;
+  font-size: 1.2rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 300;
+  color: #212121;
+  text-transform: inherit;
+}
+.menu {
+  font-size: 13px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: inherit;
+}
+.button {
+  font-size: 14px;
+  font-size: 1.4rem;
+  line-height: 20px;
+  line-height: 2rem;
+  letter-spacing: 0.1px;
+  letter-spacing: 0.01rem;
+  font-weight: 400;
+  color: #212121;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 960px) {
+  .subhead-2 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .subhead-1 {
+    font-size: 16px;
+    font-size: 1.6rem;
+  }
+  .body-2 {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  .body-1 {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  .menu {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  margin: 0 0 14px 0;
+  margin-bottom: 1.4rem;
+}
+.headline,
+.title,
+.subhead-1,
+.subhead-2,
+.body-1,
+.body-2,
+.caption,
+.label,
+.menu,
+.button {
+  margin: 0 0 10px 0;
+  margin-bottom: 1rem;
+}
+.splash-subtext {
+  max-width: 600 px;
+  margin: 0 auto;
+  line-height: 1.8;
+  font-size: 18px;
+  color: #333;
+  font-weight: 300;
+  font-family: "Roboto";
+}
+.light-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 4em;
+  line-height: 1.25em;
+  color: snow;
+  letter-spacing: 10px;
+  text-shadow: 0 0 5px rgb(255 255 255), 0 0 10px rgb(255 255 255),
+    0 0 20px #ffffff, 0 0 30px #ffffff, 0 0 40px #ffffff, 0 0 50px #ffffff;
+}
+.shadow {
+  color: #fff;
+  font-family: Arvo;
+  font-weight: bold;
+  text-shadow: -3px -3px 0 #222, 3px -3px 0 #222, -3px 3px 0 #222,
+    3px 3px 0 #222, 4px 4px 0 #fff, 5px 5px 0 #fff, 6px 6px 0 #fff,
+    7px 7px 0 #fff;
+  line-height: 0.8em;
+  letter-spacing: 0.1em;
+  transform: scaleY(0.7);
+  -webkit-transform: scaleY(0.7);
+  -moz-transform: scaleY(0.7);
+  margin: 0;
+  text-align: center;
+}
+.text1 {
+  font-size: 60px;
+}
+.text2 {
+  font-size: 169px;
+}
+.text3 {
+  font-size: 100px;
+}
+
+.oen-high-noon {
+  background: #49806e;
+  color: white;
+  text-shadow: 0px 3px 0px #182923, 0px 14px 10px rgba(0, 0, 0, 0.15),
+    0px 24px 2px rgba(0, 0, 0, 0.1), 0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+.oen-stitched {
+  background: #21303b;
+  color: #fff;
+  outline: 1px dashed #98abb9;
+  outline-offset: -5px;
+  background-color: #556068;
+  box-shadow: 2px 2px 2px #000;
+}
+
+.oen-slide {
+  background: black;
+}
+.oen-slide span {
+  display: inline-block;
+  background: #222 -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#222),
+      to(#222),
+      color-stop(0.5, #fff)
+    ) 0 0 no-repeat;
+  -webkit-background-size: 125px 100%;
+  color: rgba(255, 255, 255, 0.1);
+  -webkit-background-clip: text;
+  -webkit-animation: shine 2s infinite;
+  animation: shine 2s infinite;
+}
+
+@-webkit-keyframes shine {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+
+@keyframes shine {
+  0% {
+    background-position: top left;
+  }
+  100% {
+    background-position: top right;
+  }
+}
+.oen-pillow-emboss {
+  background: #ccc;
+  color: #ddd;
+  text-shadow: 1px 1px 1px white, -1px -1px 1px #444;
+}
+
+.oen-outlined-3d {
+  background: #666;
+  text-shadow: 2px 3px 3px #292929;
+  letter-spacing: -2px;
+  text-stroke: 1px white;
+  color: #dbdbdb;
+  -webkit-mask-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottombottom,
+    from(black),
+    color-stop(50%, transparent),
+    to(black)
+  );
+}
+
+.oen-text-shadow {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.oen-three-dimensional {
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9,
+    0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1),
+    0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2),
+    0 5px 10px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.2),
+    0 20px 20px rgba(0, 0, 0, 0.15);
+  color: white;
+  background: #11a9e2;
+}
+
+.oen-three-d-block {
+  color: #4a574d;
+  text-shadow: 1px 0px #eee, 0px 1px #ccc, 2px 1px #eee, 1px 2px #ccc,
+    3px 2px #eee, 2px 3px #ccc, 4px 3px #eee, 3px 4px #ccc, 5px 4px #eee,
+    4px 5px #ccc, 6px 5px #eee, 5px 6px #ccc, 7px 6px #eee, 6px 7px #ccc,
+    8px 7px #eee, 7px 8px #ccc, 8px 8px #eee;
+}
+
+.oen-sign-painted {
+  font-size: 125px;
+  line-height: 1;
+  font-family: Rancho;
+  font-weight: bold;
+  text-shadow: 0.02em 0.03em #fff, 0.05em 0.06em #1ba29a;
+}
+.oen-shadow-1 {
+  color: transparent;
+  background: #ffffff;
+  text-shadow: -4px 4px rgba(179, 179, 179, 0.4),
+    -3px 3px rgba(153, 153, 153, 0.2), -2px 2px rgba(179, 179, 179, 0.2),
+    -1px 1px rgba(179, 179, 179, 0.2), 0px 0px rgba(128, 128, 128, 0.5),
+    1px -1px rgba(77, 77, 77, 0.6), 2px -2px rgba(77, 77, 77, 0.7),
+    3px -3px rgba(82, 82, 82, 0.8), 4px -4px rgba(77, 77, 77, 0.9),
+    5px -5px rgba(77, 77, 77, 1);
+}
+.oen-shadow-2 {
+  color: transparent;
+  background: #666666;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.5);
+}
+.oen-shadow-3 {
+  color: #000000;
+  background: #ffffff;
+  text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+.oen-shadow-4 {
+  color: #92a5de;
+  text-shadow: 0px 0px 0 #899cd5, 1px 1px 0 #8194cd, 2px 2px 0 #788bc4,
+    3px 3px 0 #6f82bb, 4px 4px 0 #677ab3, 5px 5px 0 #5e71aa, 6px 6px 0 #5568a1,
+    7px 7px 0 #4c5f98, 8px 8px 0 #445790, 9px 9px 0 #3b4e87, 10px 10px 0 #32457e,
+    11px 11px 0 #2a3d76, 12px 12px 0 #21346d, 13px 13px 0 #182b64,
+    14px 14px 0 #0f225b, 15px 15px 0 #071a53, 16px 16px 0 #02114a,
+    17px 17px 0 #0b0841, 18px 18px 0 #130039, 19px 19px 0 #1c0930,
+    20px 20px 0 #251227, 21px 21px 20px rgba(0, 0, 0, 1),
+    21px 21px 1px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+.oen-shadow-5 {
+  color: #333333;
+  background: #ffffff;
+  text-shadow: 2px 2px 0px #ffffff, 5px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.oen-shadow-6 {
+  color: #444444;
+  background: #ffffff;
+  text-shadow: 1px 0px 1px #cccccc, 0px 1px 1px #eeeeee, 2px 1px 1px #cccccc,
+    1px 2px 1px #eeeeee, 3px 2px 1px #cccccc, 2px 3px 1px #eeeeee,
+    4px 3px 1px #cccccc, 3px 4px 1px #eeeeee, 5px 4px 1px #cccccc,
+    4px 5px 1px #eeeeee, 6px 5px 1px #cccccc, 5px 6px 1px #eeeeee,
+    7px 6px 1px #cccccc;
+}
+.oen-shadow-7 {
+  color: #d9d9d9;
+  text-shadow: -1px -1px 1px rgba(255, 255, 255, 0.1),
+    1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.oen-shadow-8 {
+  color: #005900;
+  text-shadow: #fffca8 2px 2px 0px, #9c9c9c 4px 4px 0px;
+}
+.oen-shadow-9 {
+  color: #202c2d;
+  background: #ffffff;
+  text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5,
+    -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5,
+    -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5,
+    -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+}
+.oen-shadow-10 {
+  color: #ffffff;
+  background: #ffffff;
+  text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5,
+    -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5,
+    -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+}
+.oen-shadow-11 {
+  color: #ffffff;
+  background: #ffffff;
+  text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+}
